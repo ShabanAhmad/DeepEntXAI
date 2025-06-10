@@ -24,11 +24,11 @@ DeepEntXAI is a hybrid deep learning framework developed to predict the biologic
 
 ```
 DeepEntXAI/
-├── data/                        # Input molecular descriptors (CSV format)
-├── models/                      # Trained models and saved weights
-├── notebooks/                   # Code with outputs (CNN-LSTM-XAI)
-├── README.md                    # Project documentation
-└── LICENSE                      # License file
+├── data/                        # Sample_Dataset.csv, SampleInput molecular descriptors (CSV format)
+├── models/                      # 1_CNN_LSTM_XAI.pth, Trained models and saved weights
+├── notebooks/                   # Enterobacteriaceae_Code.ipynb, Code with outputs (CNN-LSTM-XAI)
+├── README.md                    # README.md, Project documentation
+└── LICENSE                      # LICENSE.md, License file
 ```
 
 ---
@@ -40,10 +40,11 @@ DeepEntXAI/
 * **Descriptors**: Computed using **RDKit**, **Mordred**, and **PaDEL**.
 * **Preprocessing**:
 
-  * Structure standardization
+  * Structure standardisation
   * Duplicate removal
   * Descriptor curation
-  * o	Final active set: 8,097 ligands, 9000 Inactive compounds. 
+  * and many more, read the full paper. 
+  * Final active set: 8,097 ligands, 9000 Inactive compounds. 
 
 ---
 
@@ -121,7 +122,7 @@ python src/explain_lime.py --input data/test.csv --model models/ _weights.h5
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License (read full license file).
 
 ---
 
