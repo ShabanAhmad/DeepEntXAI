@@ -12,13 +12,19 @@ o	LIME for local interpretability and compound-specific insights.
 •	Prediction on Unlabelled Data: Scores new compounds (0–10 scale) to identify high-potential drug candidates.
 •	Output-Ready Results: Generates CSV files with prediction probabilities, scaled activity scores, and interpretability rankings.
 
+
 📂 **Repository Structure**
 DeepEntXAI/
 ├── data/                        # Input molecular descriptors (CSV format)
+
 ├── models/                      # Trained models and saved weights
+
 ├── notebooks/                   # Code with outputs (CNN-LSTM-XAI)
+
 ├── README.md                    # Project documentation
+
 └── LICENSE                      # License file
+
 ________________________________________
 📊 **Dataset**
 •	Source: PubChem and ChEMBL BioAssays relevant to Enterobacteriaceae.
@@ -29,6 +35,7 @@ o	Structure standardization
 o	Duplicate removal
 o	Descriptor curation
 o	Final active set: 8,097 ligands, 9000 Inactive compounds. 
+
 ________________________________________
 🚀 **Getting Started**
 1. Clone the Repository
@@ -45,6 +52,7 @@ python src/predict_unlabelled.py --input data/unlabelled.csv --model models/deep
 5. Run Explainability Analysis
 python src/explain_hybrid.py --input data/test.csv --model models/deepentxai_weights.h5
 python src/explain_lime.py --input data/test.csv --model models/deepentxai_weights.h5
+
 ________________________________________
 📈 **Results Summary**
 Metric	Score
@@ -56,12 +64,14 @@ Specificity	99.67%
 AUC-ROC	0.998
 Cross-Validation (5-fold)	99.09% ± 0.36%
 Cross-Validation (10-fold)	99.13% ± 0.27%
+
 ________________________________________
 🧠 **XAI Insights**
 •	Top Feature: minHsNH3p – High perturbation sensitivity across accuracy, flip ratio, and log-loss.
 •	Low-Importance Features: geomDiameter, nG12FRing, BCUTZ-1l
 •	Top Compounds (by confidence): 4615770, 5309708, 70556, with scaled scores ~9.9999
 •	Least Certain Compounds: Predictions near 0.5 threshold, structurally ambiguous
+
 ________________________________________
 🧪 **Applications**
 •	Active compound screening
@@ -69,12 +79,15 @@ ________________________________________
 •	Drug repurposing
 •	Prioritisation for Enterobacteriaceae infections (e.g., UTIs, BSIs, sepsis)
 •	Feature-driven compound design
+
 ________________________________________
 📜 **License**
 This project is licensed under the MIT License.
+
 ________________________________________
 🤝 **Contributions**
 We welcome contributions from the community. Please open issues or submit pull requests for improvements, bug fixes, or new features.
+
 ________________________________________
 📧 **Contact**
 For questions or collaboration inquiries, please contact:
@@ -83,6 +96,6 @@ Author: Nagmi Bano1, Dr Shaban Ahmad1,2, Prof Khalid Raza1
 
 Email: nagmi2300973@st.jmi.ac.in, Shaban@sund.ku.dk, kraza@jmi.ac.in 
 
-Institutions: 
+_Institutions: _
 1 Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.
 2 Preclinical Disease Biology Section, Department of Veterinary and Animal Sciences, Faculty of Health and Medical Sciences, University of Copenhagen, Frederiksberg, Denmark.
