@@ -140,7 +140,7 @@ For questions or collaboration inquiries, please contact:
 
 **Email**: *\nagmi2300973@st.jmi.ac.in, Shaban@sund.ku.dk, kraza@jmi.ac.in*
 
-**Institution**: *\
+**Institutions**: *\
 1 Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.
 
 2 Biomedicine Section, Department of Veterinary and Animal Sciences, Faculty of Health and Medical Sciences, University of Copenhagen, Frederiksberg, Denmark.*
