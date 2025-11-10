@@ -139,6 +139,6 @@ For questions or collaboration inquiries, please contact:
 **Author**: *Dr Shaban Ahmad, Nagmi Bano, Prof Khalid Raza*
 
 **Email**: *shaban184343@st.jmi.ac.in,  nagmi2300973@st.jmi.ac.in, kraza@jmi.ac.in*
-
 **Institution**: *Computational Intelligence and Bioinformatics Lab, Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.*
+
 ---
