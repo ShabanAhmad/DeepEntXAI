@@ -136,13 +136,10 @@ We welcome contributions from the community. Please open issues or submit pull r
 
 For questions or collaboration inquiries, please contact:
 
-**Author**: *\Nagmi Bano1, Dr Shaban Ahmad1,2, Prof Khalid Raza1*
+**Author**: *Dr Shaban Ahmad, Nagmi Bano, Prof Khalid Raza*
 
-**Email**: *\nagmi2300973@st.jmi.ac.in, Shaban@sund.ku.dk, kraza@jmi.ac.in*
+**Email**: *shaban184343@st.jmi.ac.in,  nagmi2300973@st.jmi.ac.in, kraza@jmi.ac.in*
 
 **Institutions**: *\
-1 Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.
-
-2 Biomedicine Section, Department of Veterinary and Animal Sciences, Faculty of Health and Medical Sciences, University of Copenhagen, Frederiksberg, Denmark.*
-
+Computational Intelligence and Bioinformatics Lab, Department of Computer Science, Jamia Millia Islamia, New Delhi-110025, India.
 ---
