@@ -402,6 +402,6 @@ MIT License.
 
 ## Authors & Contact
 
-**Dr Shaban Ahmad, Nagmi Bano, Prof Khalid Raza**
+**Nagmi Bano, Dr Shaban Ahmad, Prof Khalid Raza**
 Computational Intelligence and Bioinformatics Lab, Department of Computer Science,
 Jamia Millia Islamia, New Delhi, India.
