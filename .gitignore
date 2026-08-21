@@ -19,3 +19,9 @@ REVISION_RESPONSE.md
 
 # results are not published — code + data only
 /03_Results/
+
+# minimal repo: publish only 0_Codes.ipynb + Data_DeepEntXAI.xlsx + README + LICENSE
+/01_Code/
+/02_Data/
+/00_run_all.py
+/DATA.md
