@@ -1,0 +1,16 @@
+{
+  "best_params": {
+    "embed_dim": 128,
+    "cnn_blocks": 2,
+    "cnn_filters": 32,
+    "cnn_kernel": 3,
+    "lstm_units": 64,
+    "dense_units": 64,
+    "dropout": 0.2545474901621302,
+    "activation": "gelu",
+    "learning_rate": 0.0005958389350068958,
+    "optimizer": "adam",
+    "batch_size": 32
+  },
+  "best_val_roc_auc": 0.8602457756749302
+}

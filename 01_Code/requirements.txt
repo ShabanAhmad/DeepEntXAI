@@ -1,0 +1,19 @@
+# DEEPENTXAI_FINAL — pinned to the verified ENT environment (CPU, no GPU needed)
+# Install:  pip install -r requirements.txt   (Python 3.10)
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+tensorflow-cpu==2.19.0
+keras==3.6.0
+xgboost==3.2.0
+rdkit==2024.9.6
+mordred==1.2.0
+transformers==5.14.1
+torch==2.7.0            # ChemBERTa embeddings (CPU wheel is fine)
+optuna==4.9.0
+shap==0.47.2
+lime==0.2.0.1
+matplotlib==3.10.1
+joblib==1.4.2
+PyYAML==6.0.3

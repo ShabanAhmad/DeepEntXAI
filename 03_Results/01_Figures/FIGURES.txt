@@ -1,0 +1,61 @@
+DEEPENTXAI - Manuscript figure & table index
+============================================================
+
+FIGURES (plots) -- titleless; caption is the sole title.
+
+Figure 1  (F01_dataset_overview.png)
+    Dataset composition (49,093 activity-gap compounds; class balance and source split).
+
+Figure 2  (F02_roc_curve.png)
+    ROC curve on the scaffold-disjoint hold-out (ROC-AUC 0.901).
+
+Figure 3  (F03_pr_curve.png)
+    Precision-recall curve on the hold-out (PR-AUC 0.870).
+
+Figure 4  (F04_calibration_curve.png)
+    Reliability (calibration) curve after isotonic calibration.
+
+Figure 5  (F05_confusion_matrix.png)
+    Confusion matrix at the operating threshold. [Supplementary S1]
+
+Figure 6  (F06_learning_curve.png)
+    Training history (loss/metric vs epoch). Not a substitute for generalisation.
+
+Figure 7  (F07_risk_coverage.png)
+    Conformal risk-coverage curve: accuracy vs fraction of compounds called (98.1% at 22% coverage).
+
+Figure 8  (F08_enrichment_curve.png)
+    Retrospective virtual-screen accumulation curve (top-1% = 100% true actives).
+
+Figure 9  (F09_imbalance_robustness.png)
+    Performance vs class imbalance: ROC-AUC flat, Enrichment Factor rises (R1.2).
+
+Figure 10  (F10_feature_stability_top15.png)
+    Bootstrap feature-importance stability, top-15 RDKit descriptors, mean +/- SD (R2.9).
+
+Figure 11  (F11_regression_scatter.png)
+    Secondary task: predicted vs measured E. coli pMIC (R2 0.595).
+
+Figure 12  (F12_summary.png)
+    Summary performance panel.
+
+
+TABLES (rendered as figure images).
+
+Table A  (T01_model_architecture.png)
+    DeepEntXAI architecture (layers, shapes; 1,276,933 parameters).
+
+Table B  (T02_feature_accounting.png)
+    Feature accounting: 2048+100+167+768 = 3083 features, no PCA (R2.4).
+
+Table C  (T03_performance_vs_imbalance.png)
+    Performance across class-imbalance ratios; EF@0.1% up to 41.9x at 1:50 (R1.2).
+
+Table D  (T04_external_cross_source.png)
+    Provenance-disjoint external validation, train/test across databases (R2.3).
+
+Table E  (T05_assay_source_bias.png)
+    Hold-out ROC-AUC restricted to each source; spread 0.021 -> no assay artefact (R2.6).
+
+Table F  (T06_feature_stability.png)
+    Bootstrap + across-fold feature-importance stability (R2.9).

@@ -1,0 +1,44 @@
+{
+  "design": "Provenance-disjoint external validation. Train on one database, test on the other. Scaling fit on the training source only; the model never trains on any test-source compound. 505 mixed compounds dropped.",
+  "internal_scaffold_disjoint_auc": 0.901,
+  "external_directions": {
+    "ChEMBL_to_PubChem": {
+      "accuracy": 0.6063,
+      "precision": 0.7107,
+      "recall_sensitivity": 0.1652,
+      "specificity": 0.9479,
+      "f1": 0.2681,
+      "roc_auc": 0.6561,
+      "pr_auc": 0.5925,
+      "mcc": 0.1858,
+      "balanced_accuracy": 0.5566,
+      "cohen_kappa": 0.1238,
+      "log_loss": 1.27,
+      "brier_score": 0.3296,
+      "n_train": 22831,
+      "n_test": 21729,
+      "train_source": "ChEMBL",
+      "test_source": "PubChem"
+    },
+    "PubChem_to_ChEMBL": {
+      "accuracy": 0.5351,
+      "precision": 0.4049,
+      "recall_sensitivity": 0.8925,
+      "specificity": 0.3611,
+      "f1": 0.557,
+      "roc_auc": 0.7274,
+      "pr_auc": 0.5006,
+      "mcc": 0.2656,
+      "balanced_accuracy": 0.6268,
+      "cohen_kappa": 0.1937,
+      "log_loss": 1.3117,
+      "brier_score": 0.3403,
+      "n_train": 18470,
+      "n_test": 26859,
+      "train_source": "PubChem",
+      "test_source": "ChEMBL"
+    }
+  },
+  "external_mean_auc": 0.6918,
+  "verdict": "Above-chance but MODERATE cross-database transfer: external mean ROC-AUC 0.6918 (above random 0.5, below internal scaffold-disjoint 0.901). Indicates a genuine ChEMBL<->PubChem domain shift; reported as a limitation. Real transferable signal, not database-agnostic; the domain-shift penalty is itself evidence against leakage."
+}

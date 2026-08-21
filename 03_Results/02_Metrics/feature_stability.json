@@ -1,0 +1,163 @@
+{
+  "bootstrap": {
+    "n_resamples": 20,
+    "subsample": 2500,
+    "top15_stable_descriptors": [
+      {
+        "descriptor": "fr_azo",
+        "mean_importance": 0.00275,
+        "sd": 0.00116,
+        "ci95": [
+          0.001,
+          0.00488
+        ],
+        "top10_frequency": 1.0
+      },
+      {
+        "descriptor": "fr_COO",
+        "mean_importance": 0.00081,
+        "sd": 0.00032,
+        "ci95": [
+          0.00027,
+          0.0014
+        ],
+        "top10_frequency": 0.95
+      },
+      {
+        "descriptor": "fr_Ar_NH",
+        "mean_importance": 0.00063,
+        "sd": 0.00026,
+        "ci95": [
+          0.0003,
+          0.00109
+        ],
+        "top10_frequency": 0.7
+      },
+      {
+        "descriptor": "VSA_EState3",
+        "mean_importance": 0.00046,
+        "sd": 0.00022,
+        "ci95": [
+          4e-05,
+          0.00084
+        ],
+        "top10_frequency": 0.7
+      },
+      {
+        "descriptor": "NHOHCount",
+        "mean_importance": 0.0004,
+        "sd": 0.00017,
+        "ci95": [
+          0.0001,
+          0.0007
+        ],
+        "top10_frequency": 0.55
+      },
+      {
+        "descriptor": "fr_SH",
+        "mean_importance": 0.00039,
+        "sd": 0.0004,
+        "ci95": [
+          -0.00011,
+          0.00117
+        ],
+        "top10_frequency": 0.4
+      },
+      {
+        "descriptor": "PEOE_VSA14",
+        "mean_importance": 0.00033,
+        "sd": 0.00034,
+        "ci95": [
+          -0.00037,
+          0.0009
+        ],
+        "top10_frequency": 0.45
+      },
+      {
+        "descriptor": "VSA_EState9",
+        "mean_importance": 0.00032,
+        "sd": 0.00032,
+        "ci95": [
+          -0.00014,
+          0.00093
+        ],
+        "top10_frequency": 0.4
+      },
+      {
+        "descriptor": "fr_Imine",
+        "mean_importance": 0.00032,
+        "sd": 0.00035,
+        "ci95": [
+          -0.00021,
+          0.00102
+        ],
+        "top10_frequency": 0.4
+      },
+      {
+        "descriptor": "SlogP_VSA5",
+        "mean_importance": 0.0003,
+        "sd": 0.00015,
+        "ci95": [
+          1e-05,
+          0.00056
+        ],
+        "top10_frequency": 0.25
+      },
+      {
+        "descriptor": "fr_thiophene",
+        "mean_importance": 0.00029,
+        "sd": 0.00026,
+        "ci95": [
+          -5e-05,
+          0.00084
+        ],
+        "top10_frequency": 0.2
+      },
+      {
+        "descriptor": "PEOE_VSA1",
+        "mean_importance": 0.00026,
+        "sd": 0.00011,
+        "ci95": [
+          4e-05,
+          0.00043
+        ],
+        "top10_frequency": 0.15
+      },
+      {
+        "descriptor": "BCUT2D_MWLOW",
+        "mean_importance": 0.00026,
+        "sd": 0.00016,
+        "ci95": [
+          -0.0,
+          0.00055
+        ],
+        "top10_frequency": 0.1
+      },
+      {
+        "descriptor": "SMR_VSA7",
+        "mean_importance": 0.00026,
+        "sd": 0.0001,
+        "ci95": [
+          9e-05,
+          0.00041
+        ],
+        "top10_frequency": 0.05
+      },
+      {
+        "descriptor": "EState_VSA3",
+        "mean_importance": 0.00025,
+        "sd": 0.00016,
+        "ci95": [
+          -6e-05,
+          0.0005
+        ],
+        "top10_frequency": 0.1
+      }
+    ]
+  },
+  "across_fold": {
+    "n_folds": 5,
+    "mean_pairwise_spearman": 0.19
+  },
+  "verdict": "TOP features stable (fr_azo in top-10 of 100%, fr_COO 95% of bootstraps); FULL 100-descriptor cross-fold rank correlation low (Spearman 0.19) because most descriptors are near-zero importance. Interpretability claims restricted to top features."
+}

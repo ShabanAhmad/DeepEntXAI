@@ -1,0 +1,22 @@
+{
+  "download": {
+    "chembl_rows": 113840,
+    "pubchem_rows": 27340
+  },
+  "standardization": {
+    "kept": 65515,
+    "too_large": 1640,
+    "too_small": 4,
+    "invalid_smiles": 1
+  },
+  "labelling": {
+    "labelled_measurements": 103488,
+    "active_frac": 0.4853
+  },
+  "final": {
+    "unique_compounds": 49093,
+    "active": 18513,
+    "inactive": 30580,
+    "active_frac": 0.3771
+  }
+}

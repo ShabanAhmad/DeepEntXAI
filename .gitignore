@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.venv/
+.ipynb_checkpoints/
+
+# Large binaries excluded (exceed GitHub limits / bloat). Regenerate: python 00_run_all.py
+# features.npz is 155 MB (> GitHub 100 MB hard limit); rebuilt by stage 02
+02_Data/03_Features_Raw/features.npz
+# trained weights ~105 MB; rebuilt by stages 03-04
+03_Results/03_Model/*.keras

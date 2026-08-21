@@ -1,0 +1,46 @@
+{
+  "driver": "calibrated_ensemble_probability",
+  "ranking_roc_auc": 0.9009,
+  "ranking_pr_auc": 0.8646,
+  "enrichment": {
+    "n_total": 7363,
+    "n_active": 2760,
+    "active_rate": 0.3748,
+    "max_EF": 2.67,
+    "by_fraction": {
+      "top_1pct": {
+        "k": 74,
+        "hits": 74,
+        "hit_rate": 1.0,
+        "EF": 2.67
+      },
+      "top_5pct": {
+        "k": 368,
+        "hits": 365,
+        "hit_rate": 0.9918,
+        "EF": 2.65
+      },
+      "top_10pct": {
+        "k": 736,
+        "hits": 729,
+        "hit_rate": 0.9905,
+        "EF": 2.64
+      },
+      "top_20pct": {
+        "k": 1473,
+        "hits": 1365,
+        "hit_rate": 0.9267,
+        "EF": 2.47
+      }
+    }
+  },
+  "precision_at_k": {
+    "P@10": 1.0,
+    "P@25": 1.0,
+    "P@50": 1.0,
+    "P@100": 0.99,
+    "P@250": 0.988,
+    "P@500": 0.994
+  },
+  "note": "Retrospective virtual screen on the scaffold-disjoint hold-out. EF=1 is random; ceiling is 1/active_rate = 2.67. All figures computed on true labels."
+}

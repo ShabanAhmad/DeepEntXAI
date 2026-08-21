@@ -1,0 +1,16 @@
+2026-08-21 15:38:06.118551: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-08-21 15:38:06.399355: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2026-08-21 15:38:07.607732: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+/home/nagmibano/.local/lib/python3.10/site-packages/keras/src/models/functional.py:225: UserWarning: The structure of `inputs` doesn't match the expected structure: ['morgan', 'rdkit', 'maccs', 'chemberta']. Received: the structure of inputs=('*', '*', '*', '*')
+  warnings.warn(
+15:39:48 | INFO    | NB15 | ChEMBL->PubChem: AUC 0.6561 acc 0.6063 (train 22831 / test 21729)
+/home/nagmibano/.local/lib/python3.10/site-packages/keras/src/models/functional.py:225: UserWarning: The structure of `inputs` doesn't match the expected structure: ['morgan', 'rdkit', 'maccs', 'chemberta']. Received: the structure of inputs=('*', '*', '*', '*')
+  warnings.warn(
+15:41:12 | INFO    | NB15 | PubChem->ChEMBL: AUC 0.7274 acc 0.5351 (train 18470 / test 26859)
+
+================ DEEPENTXAI-15 (external cross-source) ================
+  ChEMBL_to_PubChem    AUC 0.6561  acc 0.6063  MCC 0.1858  (train 22831 / test 21729)
+  PubChem_to_ChEMBL    AUC 0.7274  acc 0.5351  MCC 0.2656  (train 18470 / test 26859)
+  external mean AUC 0.6918  (internal 0.901)
+  -> Model transfers across databases: external mean ROC-AUC 0.692 (internal 0.901). The high internal performance is not an assay/database artefact.

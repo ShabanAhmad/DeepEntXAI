@@ -1,0 +1,2 @@
+15:39:48 | INFO    | NB15 | ChEMBL->PubChem: AUC 0.6561 acc 0.6063 (train 22831 / test 21729)
+15:41:12 | INFO    | NB15 | PubChem->ChEMBL: AUC 0.7274 acc 0.5351 (train 18470 / test 26859)
