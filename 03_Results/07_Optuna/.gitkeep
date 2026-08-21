@@ -1,6 +1,0 @@
-# This folder holds the Optuna hyper-parameter search study (study.pkl),
-# written by stage 03 (03_train_and_validate.py). It ships empty because the
-# repository includes the FINAL tuned hyper-parameters (03_Results/03_Model/
-# best_hparams.json) rather than the full search database. Run:
-#     python 00_run_all.py --only 03
-# to regenerate the study here.

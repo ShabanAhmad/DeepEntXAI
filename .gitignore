@@ -16,3 +16,6 @@ __pycache__/
 DeepEntXAI_Showcase.ipynb
 # keep the reviewer response local-only (not published)
 REVISION_RESPONSE.md
+
+# results are not published — code + data only
+/03_Results/

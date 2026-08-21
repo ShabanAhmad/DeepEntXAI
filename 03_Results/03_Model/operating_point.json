@@ -1,6 +1,0 @@
-{
-  "threshold_accuracy": 0.49999999999999994,
-  "threshold_balanced": 0.36999999999999994,
-  "oof_accuracy_at_t": 0.8092020129403307,
-  "oof_balanced_at_t": 0.7921848185480458
-}
