@@ -14,3 +14,5 @@ __pycache__/
 
 # keep the showcase notebook local-only (not published)
 DeepEntXAI_Showcase.ipynb
+# keep the reviewer response local-only (not published)
+REVISION_RESPONSE.md
