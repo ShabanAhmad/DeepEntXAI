@@ -11,3 +11,6 @@ __pycache__/
 02_Data/03_Features_Raw/features.npz
 # trained weights ~105 MB; rebuilt by stages 03-04
 03_Results/03_Model/*.keras
+
+# keep the showcase notebook local-only (not published)
+DeepEntXAI_Showcase.ipynb
